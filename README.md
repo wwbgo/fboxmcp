@@ -21,7 +21,7 @@ claude mcp add --transport http fboxmcp https://fboxmcp.fbox360.com \
   --header "Authorization: Bearer ${FBOXMCP_API_KEY}"
 
 # 安装插件
-claude plugin marketplace add https://github.com/FlexemDev/fbox-skills
+claude plugin marketplace add https://github.com/flexem/fbox-skills
 claude plugin install fboxmcp
 ```
 
@@ -48,4 +48,4 @@ MIT License
 
 - 官网: [https://fbox360.com](https://fbox360.com)
 - 作者: flexem
-- 问题反馈: [GitHub Issues](https://github.com/FlexemDev/fbox-skills/issues)
+- 问题反馈: [GitHub Issues](https://github.com/flexem/fbox-skills/issues)
