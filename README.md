@@ -29,8 +29,9 @@ export FBOXMCP_API_KEY=sk-xxxxxx
 # 添加 MCP Server
 claude mcp add --transport http fboxmcp https://fboxmcp.fbox360.com --header "Authorization: Bearer ${FBOXMCP_API_KEY}"
 
-# 安装技能
-claude skill install https://github.com/FlexemDev/fboxmcp
+# 安装插件
+claude plugin marketplace add https://github.com/FlexemDev/fboxmcp
+claude plugin install fboxmcp
 ```
 
 ### 使用示例

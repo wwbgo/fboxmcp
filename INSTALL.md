@@ -27,9 +27,10 @@
    claude mcp add --transport http fboxmcp https://fboxmcp.fbox360.com --header "Authorization: Bearer $env:FBOXMCP_API_KEY"
    ```
 
-4. **安装技能**
+4. **安装插件**
    ```bash
-   claude skill install https://github.com/FlexemDev/fboxmcp
+   claude plugin marketplace add https://github.com/FlexemDev/fboxmcp
+   claude plugin install fboxmcp
    ```
 
 5. **验证安装**
